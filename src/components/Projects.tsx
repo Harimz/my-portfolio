@@ -1,9 +1,11 @@
 import ProjectCard, { type Project } from "./ProjectCard";
 
 const projectPreviews = {
-  htailorsGifUrl: "/portfolio-work/htailors.gif",
+  htailorsGifUrl:
+    "https://pub-5d9166ba62984fd38a0185b21e8ba486.r2.dev/htailors.gif",
   pulseGifUrl: undefined as string | undefined,
-  logbookGifUrl: "/portfolio-work/logbook.gif",
+  logbookGifUrl:
+    "https://pub-5d9166ba62984fd38a0185b21e8ba486.r2.dev/logbook.gif",
 };
 
 const projects: Project[] = [
@@ -31,7 +33,7 @@ const projects: Project[] = [
     gifUrl: projectPreviews.htailorsGifUrl,
     githubUrl: "https://github.com/Harimz/NextJs-Ecommerce",
     liveUrl: "https://www.htailors.shop",
-    imageUrl: "/portfolio-work/htailors-image.png",
+    imageUrl: "/portfolio-images/htailors-image.png",
   },
   {
     name: "Pulse",
@@ -64,7 +66,7 @@ const projects: Project[] = [
     gifUrl: projectPreviews.logbookGifUrl,
     githubUrl: "https://github.com/Harimz/blog-react-client",
     liveUrl: "https://www.logbook-blog.online",
-    imageUrl: "/portfolio-work/logbook-image.png",
+    imageUrl: "/portfolio-images/logbook-image.png",
   },
 ];
 
