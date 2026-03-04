@@ -51,7 +51,8 @@ const projects: Project[] = [
     coverGradient: "bg-gradient-to-br from-foreground/70 to-foreground/30",
     liveUrl: "https://www.pulse-feed.online/login",
     githubUrl: "https://github.com/Harimz/pulse-client",
-    gifUrl: "/portfolio-images/pulse-image.png",
+    imageUrl: "/portfolio-images/pulse-image.png",
+    gifUrl: projectPreviews.pulseGifUrl,
   },
   {
     name: "Logbook",
