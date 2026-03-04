@@ -3,7 +3,8 @@ import ProjectCard, { type Project } from "./ProjectCard";
 const projectPreviews = {
   htailorsGifUrl:
     "https://pub-5d9166ba62984fd38a0185b21e8ba486.r2.dev/htailors.gif",
-  pulseGifUrl: undefined as string | undefined,
+  pulseGifUrl:
+    "https://pub-5d9166ba62984fd38a0185b21e8ba486.r2.dev/pulse-vid.gif",
   logbookGifUrl:
     "https://pub-5d9166ba62984fd38a0185b21e8ba486.r2.dev/logbook.gif",
 };
@@ -48,7 +49,9 @@ const projects: Project[] = [
       "Integration tests using JUnit/Spring testing utilities",
     ],
     coverGradient: "bg-gradient-to-br from-foreground/70 to-foreground/30",
-    gifUrl: projectPreviews.pulseGifUrl,
+    liveUrl: "https://www.pulse-feed.online/login",
+    githubUrl: "https://github.com/Harimz/pulse-client",
+    gifUrl: "/portfolio-images/pulse-image.png",
   },
   {
     name: "Logbook",
